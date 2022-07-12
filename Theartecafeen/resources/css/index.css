@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+.head {
+  background-image: url(https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/newscms/2019_33/2203981/171026-better-coffee-boost-se-329p.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+body {
+  overflow: scroll;
+  background-color: black;
+}
+
+nav {
+  background-color: black;
+  margin-top: 60px;
+}
+
+nav li {
+  display: inline-block;
+  width: 80px;
+  margin-top: 0px;
+  font-family: fantasy;
+  font-size: large;
+  display: inline-block;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+a {
+  cursor: pointer;
+}
+
+nav a {
+  color: white;
+  text-decoration: underline;
+}
+
+nav a:hover {
+  font-size: larger;
+  color: tan;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-size: x-large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column_two {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.row_two::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  font-size: 8vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
